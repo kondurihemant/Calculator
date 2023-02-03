@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Courier+Prime:wght@700&display=swap');
+html, body {
+    height: 100%;
+    width: 100%;
+    font-family: 'Courier Prime', monospace;
+  }
+  .button{
+    width: 60px;
+    padding: 20px;
+    margin: 0 3px;
+    border: 2px solid black;
+    border-radius: 10px;
+    cursor: pointer;
+    background-color: black;
+    color: white;
+}
+.row{
+    margin: 8px 0;
+    width: 20vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.row input{
+    margin: 0;
+    padding: 10px 0px;
+    border: 2px solid black;
+    border-radius: 10px ;
+    font-size: 21px;
+}
